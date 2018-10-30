@@ -1,9 +1,6 @@
-###**CIS 141 TechBlog**
-
+﻿﻿﻿﻿﻿**CIS 141 TechBlog**
 ##**Tyler Zweigle**
-
 ###**Quick Bio**
-
 I am 31 years old and have lived in Grass valley all my life.
 My Interest include
 
@@ -272,11 +269,10 @@ Organizational units or OU can be a group of users or devices within the rest
 
  * A Secure Desktop is a desktop that is out of scope of other applications accessibility that will display when a UAC alert is prompted. you can turn this setting off in Local policies, security options and scroll down to User account control: switch to the secure desktop when prompting for elevation. This will prevent the darkened background and locking of accessibility when UAC would prompt. 
 
+
 Group policy editor changes the registry that windows loads
 
---Lets play around with local group policy editor
-
---centralized control for
+ - Lets play around with local group policy editor centralized control for
 
 1.user settings
 
@@ -332,3 +328,66 @@ SATA and SAS are two different types of drives with different connectors/interfa
 
 
 - Using Storage Spaces will allow you to tell your computer to read the new drive pool as either a HDD or SSD and in doing so allocate the maximum amount to your storage space. So with both of your drives you can allocate 2TB of storage space.
+
+
+####**Skill 2.3 Techblog**
+
+##Lab 9: Installing a Virtual printer
+1. How many printers are installed on this machine?
+ * Currently, there are 3 printers installed
+1. How many Printing devices are now displayed in the devices and printers window?
+ * 4 in total 
+1. What is the title of the new window that has appeared?
+ * Save Print output as
+1. What extension is placed on the Printed File document now saved on the desktop?
+ * it is now a .prn file
+1. Besides the original types message, what else is displayed in this Printed File? 
+ * Printer file, and Page 1 with an indicating arrow
+1. Which device has become the default printer now that the Virtual Printer has been removed?
+ * Microsoft print to pdf is now the default
+
+##Lab 10: Sharing a virtual printer
+1. How many printer devices are installed on this machine?
+ * Currently there are 3 printers installed
+1. How many printing devices are now displayed in the Devices and Printers window?
+ * 4 in total
+1. What is now shown in the description at the bottom of the window?
+ * Now I see a check mark next to a User symbol
+1. How many printer devices are installed on the PC1 machine?
+  * There are 3
+1. How many printers are now listed in the Devices and Printers window?
+ * 4 in total 
+1. Click on Print Test Page. What is the title of the window that opens?
+ *Save print output as
+1. Did the file appear on the desktop?
+ * No
+
+##Lab 12: Configure Local User File Sharing
+1. Which account type was created for the TEST user account?
+ * Local user account
+1. Why would someone want to change a user account from the default account type to an Administrator account? What benefits does the Administrator account provide?
+ * Being an admin would bypass any UAC alerts as well as provide privileges to change or remove data and make changes to user accounts.
+1. Who is the folder currently shared with?
+ * The Student account
+1. Which three user accounts can this directory be shared with?
+ * Student, Test and Everyone
+1. Which two accounts are now listed?
+ * Test and Student
+1. When the Save As window appears, click Save followed by clicking Yes to replace What message appears?
+ * Access denied
+1. Why is the TEST user unable to alter this file?
+ * because its only a local user not an admin
+
+###**October 29th Warm up**
+
+Upon opening, I was supprised to discover many Github based applications to assist with coding, storing or managing multiple repositories.
+I am also suprised by the sheer amount of developer applications provided, especial those that deal with operating systems outside of Windows.
+I am however unsuprised by the free apps section of the store containing plenty of popular mobile applictions such as spotify, whatsapp and Tiktok as well as the ever popular Itunes.
+
+####**Skill 2.4 Techblog**
+You work for a small business of 25 employees, split between two offices that are in different buildings but share a parking lot.
+You have been tasked with deploying Microsoft Office to all machines, Adobe CS Suite to the Marketing team, and QuickBooks to the Accounting Team.  You also want to allow users to selectively install Adobe Acrobat. What would you do?
+
+ * The best way I can think to accomplisy this is by using a group policy object. With GPO's you can filter which users would be needing which pieces of software.
+this also gices you the option of setting the deployment to Assign, which automatically installs when the user logs in. Publish, which will allow the user on command to acess the install from the control panel.
+
