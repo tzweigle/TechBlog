@@ -13,7 +13,7 @@ My Interest include
 I have been married for ten years and have a 9 month old daughter. I have also been a home owner
 for the last five years. I hope to pursue an career in IT. 
 
-#### **Skill 1.1-Prepare for installation Requirements**
+## **Skill 1.1-Prepare for installation Requirements**
 A. Determine hardware requirements
 
 * Processor:1 ghz or faster
@@ -60,11 +60,11 @@ C. Deployment options
 There are currently 62 computers in the room, that includes PC's in the class as well as every
 student with a smartphone and the odd personal laptop.
 
-#### **Tech Blog prompt 1**
+## **Tech Blog prompt 1**
 For this assignment I used the computer that i currently use at my place of work.
 The primary users for this desktop computer would be basic data entry workers, using a bare minimum of applications outside of work parameters
 of the given programs.
-## **The specs for this computer are as follows**
+### **The specs for this computer are as follows**
 * Running windows 7 Pro ver 6.1
 * Processor Intel I5 3.2 Ghz
 * Ram is 8 GB and using a SSD for hard drive
@@ -87,47 +87,47 @@ her is the link to one of the articles I've located.
 Using VMware player 14 to install virtual machine. 
 VM windows install key 8PHVNVYCHHQKM76CQM93C37Y9
 
-#### **Tech blog 1.2 prompt**
+## **Tech blog 1.2 prompt**
 
-**1.** Why would a user be interested in multiple partitions on a hard drive?  
+1. Why would a user be interested in multiple partitions on a hard drive?  
 
  * Use a Windows tool (GUI or CLI) to create a partition and describe the steps that you took to create multiple partitions.
 
  * Multiple partitions on a hard drive are helpful for organization, especially for the purpose of later installing multiple drives or multiple users are present.
  * Using the disk management tool i cant split my available space and label it accordingly for future use. I can also reallocate my available space.
 
-**2.**Describe each step that requires "user attention" during the clean installation of Windows 10.
+2. Describe each step that requires "user attention" during the clean installation of Windows 10.
 
 * I needed to select to install from the DVD-rom in BIOS
 * I was required to supply a key and choose language options
 * I also was told to log in or create user information for the computer
 
-**3** .What is one Windows Feature that you chose to add after installation?  How did you add that feature?
+3 .What is one Windows Feature that you chose to add after installation?  How did you add that feature?
 
 * Hyper V (which seems to assist in server management) is a feature i added after the fact using optionalfeatures.exe
 
-#### **Tech Blog 1.2 blog part 2**
+## **Tech Blog 1.2 blog part 2**
 
 Answer the following questions and, when applicable, be sure to include screenshots and links to the Internet:
 
-**1.** On Windows 8.1, install an application that may not be Windows 10 compatible.  Why do you think this application may not be compatible?
+1. On Windows 8.1, install an application that may not be Windows 10 compatible.  Why do you think this application may not be compatible?
 
 * I installed VLC media player on my windows 8.1 machine.
 
-**2.** Create a very special text file that you would like to be included in the upgrade.  What is in the file?  Where is it located?
+2. Create a very special text file that you would like to be included in the upgrade.  What is in the file?  Where is it located?
 
 * I created a Txt file on my desktop that says hello world.
 
-**3.** Describe each step that requires "user attention" during the in-place upgrade of Windows 10.
+3. Describe each step that requires "user attention" during the in-place upgrade of Windows 10.
 
 * First it asked me to install any appropriate updates that have come for windows 10 prior to today current version. for personal use this would be fine but for the prompt I opted out. I was then asked to agree to the user agreement. next the system checked to see if my hardware, memory etc was acceptable for windows 10. the update auto selected what version to upgrade to. I was given the option of what files to keep during the upgrade(files, apps or both).
 
 
-**4.**  In what ways was the upgrade process similar to  the clean install process?  How did it differ?
+4.  In what ways was the upgrade process similar to  the clean install process?  How did it differ?
 
 * the clean install seemed to be faster that the upgrade. in addition I was prompted with similar customization options prior to launch. during the launch, a Microsoft edge page was on display inviting me to further customize and explorer new features 
 
-**5.** Are there any additional folders that remain after the upgrade process is complete?  What are the contents of those folders?
+5. Are there any additional folders that remain after the upgrade process is complete?  What are the contents of those folders?
 
 * My txt documents remained where i had left them and the program VLC media player continued to run. Within the C drive I have a file named windows.old which contains an older version of windows that I have updated from. it was roughly 12.5 GB of space and if deleted would not affect my performance.
 
@@ -142,8 +142,8 @@ This included the Zero day flaw which allowed people to alter user privileges.
 [Most recent update] (https://krebsonsecurity.com/2018/09/patch-tuesday-september-2018-edition/)
 
 
-#### **Skill 1.3 Technical Blog Prompt**
-**1.** Create a list of hardware that a user might have that require a driver installation.
+## **Skill 1.3 Technical Blog Prompt**
+1. Create a list of hardware that a user might have that require a driver installation.
 
 * A practical list of devices that might require a drives would be the
 	1.Optical disk drive 
@@ -151,31 +151,31 @@ This included the Zero day flaw which allowed people to alter user privileges.
 	3.External microphones
 	4.USB and external hard rives 
 
-**2.** Locate a device from your list (for example, printer or external storage) and install it on Windows 10 (VM in class, machine at home, maybe the host machine in class?)
+2. Locate a device from your list (for example, printer or external storage) and install it on Windows 10 (VM in class, machine at home, maybe the host machine in class?)
 
 * I used my SanDisk cruzer USB thumb drive
 
-**3.** Locate the version of the driver and see if it is the most current version available (in the case of the printer, check the manufacturer website).
+3. Locate the version of the driver and see if it is the most current version available (in the case of the printer, check the manufacturer website).
 If necessary update the device.
 
 * The current version was up to date because Microsoft was the digital signer. this means that it would call its version directly from Microsoft therefore insuring an up to date driver.
 
-**4.**Disable the device.  Does this affect Windows performance?  What happens when you disable other devices?  Try disabling your network card, how was that experience?
+4. Disable the device.  Does this affect Windows performance?  What happens when you disable other devices?  Try disabling your network card, how was that experience?
 
 * When I disable my current device it gives me a device not recognized error and offers me a fix solution. When I disable my network card, like the name suggests I lose any network connection and cannot access the internet.
 
-**5.**Why would I disable updates over metered connections?  Capture a screenshot of the screen on which you disabled this feature.
+5. Why would I disable updates over metered connections?  Capture a screenshot of the screen on which you disabled this feature.
 
 Image
 ![Screenshot](F:\CIS 141Metered Connection) 
 
 * Disabling Metered connection allows you to set upload, download bandwidth in regards to your network connection. This is mainly important in regards to LTE imbedded and Mobile hotspots as you will want to control the amount of data spent. 
 
-**6.**Perform a "rollback" of a driver update.  Note, you will need to access a different USB device if you have been working with a printer.
+6. Perform a "rollback" of a driver update.  Note, you will need to access a different USB device if you have been working with a printer.
 
 * I was able to preform a rollback on my display adapter in my devices manager. it did not create a interference with normal operating of my machine but I was prompted with a popup to search for recent driver updates. 
 
-**7.**After installing a USB microphone, a system has extremely poor performance.  How would you check to see if the performance issues are related to the USB microphone?
+7. After installing a USB microphone, a system has extremely poor performance.  How would you check to see if the performance issues are related to the USB microphone?
 
 * The simplest answer would be to attempt to update the driver, if that doesn't work a simple uninstall/reinstall should do the trick.
 
@@ -188,7 +188,7 @@ This also means that you hardware wouldn't need to match the applications that y
 
 
 
-#### **Skill 1.4 Tech blog**
+## **Skill 1.4 Tech blog**
 
 First and foremost, windows 10 (depending on you device)takes advantage of the start menu and tiles.
 In order to customize the features:
@@ -228,7 +228,7 @@ In order to customize the features:
 30. Now you can select which items send you notifications as well as which action tiles are available in your quick select.
 
 
-## **Warm up**
+#### **Warm up**
 
 What is a UAC?
 
@@ -244,7 +244,7 @@ Is the experience the same in the host computer as in a Virtual machine?
 
 With my host computer and my VM, I am registered as an admin, which mean i am still alerted to changes being made but I am not prevented from doing so.
 
-**-----1.5 key concepts (class Notes)-------**
+**-1.5 key concepts (class Notes)-**
 
 Enterprise implementations 
 Group policy is laid out with LSDO
@@ -255,7 +255,7 @@ Organizational units or OU can be a group of users or devices within the rest
 
 [LOSD Breakdown] (http://www.omnisecu.com/windows-2003/group-policy/group-policy-processing-order.php)
 
-#### **Skill 1.5 challenge**
+## **Skill 1.5 challenge**
 
 1.Block Microsoft accounts?
 
@@ -285,13 +285,13 @@ Group policy editor changes the registry that windows loads
 what does it change? 
 gpupdate/force to change effective date of GPO change or control a remote machine.
 
-### **October 8th Warm up**
+#### **October 8th Warm up**
 
 Windows 1809 bug?
 
  * Microsoft 1809 update is being delayed because of a software bug that seems to be deleting user information. quite shocking that this was not caught in testing.
 
-#### **Skill 2.1 Blog prompt**
+## **Skill 2.1 Blog prompt**
 
 Create a "Top 5" list of Windows 10 networking best practices, tips, tricks and troubleshooting strategies.
 
@@ -305,7 +305,7 @@ Create a "Top 5" list of Windows 10 networking best practices, tips, tricks and 
 
 1. Though you may never use them, you should be aware of VPN connections. A virtual private network can be used to further secure any internet usage and protect you against outside threats. There are free and paid versions on VPNS that focus on multiple levels of 
 
-#### **Skill 2.2 Tech blog**
+## **Skill 2.2 Tech blog**
 
 ### Scenario 1: Creating a Large Volume
 
@@ -324,15 +324,14 @@ You create a new storage pool for the following disks on your Windows 10 compute
 - Serial Attached SCSI (SAS): 1 TB
 SATA and SAS are two different types of drives with different connectors/interfaces.
 
-###what is the maximum size you can allocate for your new storage space?
-
+what is the maximum size you can allocate for your new storage space?
 
 - Using Storage Spaces will allow you to tell your computer to read the new drive pool as either a HDD or SSD and in doing so allocate the maximum amount to your storage space. So with both of your drives you can allocate 2TB of storage space.
 
 
-#### **Skill 2.3 Techblog**
+## **Skill 2.3 Techblog**
 
-## Lab 9: Installing a Virtual printer
+### Lab 9: Installing a Virtual printer
 1. How many printers are installed on this machine?
  * Currently, there are 3 printers installed
 1. How many Printing devices are now displayed in the devices and printers window?
@@ -346,7 +345,7 @@ SATA and SAS are two different types of drives with different connectors/interfa
 1. Which device has become the default printer now that the Virtual Printer has been removed?
  * Microsoft print to pdf is now the default
 
-## Lab 10: Sharing a virtual printer
+### Lab 10: Sharing a virtual printer
 1. How many printer devices are installed on this machine?
  * Currently there are 3 printers installed
 1. How many printing devices are now displayed in the Devices and Printers window?
@@ -362,7 +361,7 @@ SATA and SAS are two different types of drives with different connectors/interfa
 1. Did the file appear on the desktop?
  * No
 
-## Lab 12: Configure Local User File Sharing
+### Lab 12: Configure Local User File Sharing
 1. Which account type was created for the TEST user account?
  * Local user account
 1. Why would someone want to change a user account from the default account type to an Administrator account? What benefits does the Administrator account provide?
@@ -378,13 +377,13 @@ SATA and SAS are two different types of drives with different connectors/interfa
 1. Why is the TEST user unable to alter this file?
  * because its only a local user not an admin
 
-### **October 29th Warm up**
+#### **October 29th Warm up**
 
 Upon opening, I was surprised to discover many Github based applications to assist with coding, storing or managing multiple repositories.
 I am also surprised by the sheer amount of developer applications provided, especial those that deal with operating systems outside of Windows.
 I am however unsurprised by the free apps section of the store containing plenty of popular mobile applications such as Spotify, whatsapp and Tiktok as well as the ever popular Itunes.
 
-#### **Skill 2.4 Techblog**
+## **Skill 2.4 Techblog**
 You work for a small business of 25 employees, split between two offices that are in different buildings but share a parking lot.
 You have been tasked with deploying Microsoft Office to all machines, Adobe CS Suite to the Marketing team, and QuickBooks to the Accounting Team.  You also want to allow users to selectively install Adobe Acrobat. What would you do?
 
