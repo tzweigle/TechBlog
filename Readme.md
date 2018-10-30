@@ -1,6 +1,6 @@
 ﻿﻿﻿﻿﻿**CIS 141 TechBlog**
-##**Tyler Zweigle**
-###**Quick Bio**
+## **Tyler Zweigle**
+### **Quick Bio**
 I am 31 years old and have lived in Grass valley all my life.
 My Interest include
 
@@ -13,7 +13,7 @@ My Interest include
 I have been married for ten years and have a 9 month old daughter. I have also been a home owner
 for the last five years. I hope to pursue an career in IT. 
 
-####**Skill 1.1-Prepare for installation Requirements**
+#### **Skill 1.1-Prepare for installation Requirements**
 A. Determine hardware requirements
 
 * Processor:1 ghz or faster
@@ -56,15 +56,15 @@ C. Deployment options
 * Add organizational configuration
 
 
-###**August 27th Warm up**
+### **August 27th Warm up**
 There are currently 62 computers in the room, that includes PC's in the class as well as every
 student with a smartphone and the odd personal laptop.
 
-####**Tech Blog prompt 1**
+#### **Tech Blog prompt 1**
 For this assignment I used the computer that i currently use at my place of work.
 The primary users for this desktop computer would be basic data entry workers, using a bare minimum of applications outside of work parameters
 of the given programs.
-##**The specs for this computer are as follows**
+## **The specs for this computer are as follows**
 * Running windows 7 Pro ver 6.1
 * Processor Intel I5 3.2 Ghz
 * Ram is 8 GB and using a SSD for hard drive
@@ -74,7 +74,7 @@ I used the simple properties section to see my hardware and with the information
 This is a professional workplace with many employees, so the features of bitlocker as well as the ability to assign access level and access the computer
 remotely makes Windows 10 pro the prefect choice. 
 
-###**September 27th Warm up**
+### **September 27th Warm up**
 I found a few recent articles in regards to Google privacy concerning Mastercard customers. Apparently a long standing
 4 year deal has just been closed between Google and Mastercard that allows google to track purchases made while offline.
 we have given google permission to track all of our online activity (more or less) and this wouldn't be much different
@@ -83,11 +83,11 @@ her is the link to one of the articles I've located.
 
 [Google's Mastercard deal] (https://thehackernews.com/2018/09/google-mastercard-advertising.html)
 
-###in class notes 9/10
+### In class notes 9/10
 Using VMware player 14 to install virtual machine. 
 VM windows install key 8PHVNVYCHHQKM76CQM93C37Y9
 
-####**Tech blog 1.2 prompt**
+#### **Tech blog 1.2 prompt**
 
 **1.** Why would a user be interested in multiple partitions on a hard drive?  
 
@@ -102,11 +102,11 @@ VM windows install key 8PHVNVYCHHQKM76CQM93C37Y9
 * I was required to supply a key and choose language options
 * I also was told to log in or create user information for the computer
 
-3.What is one Windows Feature that you chose to add after installation?  How did you add that feature?
+**3** .What is one Windows Feature that you chose to add after installation?  How did you add that feature?
 
 * Hyper V (which seems to assist in server management) is a feature i added after the fact using optionalfeatures.exe
 
-####**Tech Blog 1.2 blog part 2**
+#### **Tech Blog 1.2 blog part 2**
 
 Answer the following questions and, when applicable, be sure to include screenshots and links to the Internet:
 
@@ -132,7 +132,7 @@ Answer the following questions and, when applicable, be sure to include screensh
 * My txt documents remained where i had left them and the program VLC media player continued to run. Within the C drive I have a file named windows.old which contains an older version of windows that I have updated from. it was roughly 12.5 GB of space and if deleted would not affect my performance.
 
 
-##**09/17/2018 warm up (Patch Tuesday)**
+## **09/17/2018 warm up (Patch Tuesday)**
 Patch Tuesday is the unofficial name given to Microsoft launch of updates given for their soft ware products. it occurs on the second and sometimes fourth Tuesday of each month.
 Microsoft has been known to release a larger number of updates in even-numbered months, and fewer in odd-numbered months. the follow up
 to this day is known as exploit Wednesday, in which developers and independent users alike, try to find any vulnerabilities in these updates.
@@ -142,8 +142,8 @@ This included the Zero day flaw which allowed people to alter user privileges.
 [Most recent update] (https://krebsonsecurity.com/2018/09/patch-tuesday-september-2018-edition/)
 
 
-####**Skill 1.3 Technical Blog Prompt**
-**1.**Create a list of hardware that a user might have that require a driver installation.
+#### **Skill 1.3 Technical Blog Prompt**
+**1.** Create a list of hardware that a user might have that require a driver installation.
 
 * A practical list of devices that might require a drives would be the
 	1.Optical disk drive 
@@ -151,11 +151,11 @@ This included the Zero day flaw which allowed people to alter user privileges.
 	3.External microphones
 	4.USB and external hard rives 
 
-**2.**Locate a device from your list (for example, printer or external storage) and install it on Windows 10 (VM in class, machine at home, maybe the host machine in class?)
+**2.** Locate a device from your list (for example, printer or external storage) and install it on Windows 10 (VM in class, machine at home, maybe the host machine in class?)
 
 * I used my SanDisk cruzer USB thumb drive
 
-**3.**Locate the version of the driver and see if it is the most current version available (in the case of the printer, check the manufacturer website).
+**3.** Locate the version of the driver and see if it is the most current version available (in the case of the printer, check the manufacturer website).
 If necessary update the device.
 
 * The current version was up to date because Microsoft was the digital signer. this means that it would call its version directly from Microsoft therefore insuring an up to date driver.
@@ -169,7 +169,7 @@ If necessary update the device.
 Image
 ![Screenshot](F:\CIS 141Metered Connection) 
 
-* Disabling Metered connection allows you to set upload, download bandwidth in regards to your network connection. This is mainly importantin regards to LTE imbedded and Mobile hotspots as you will want to control the amount of data spent. 
+* Disabling Metered connection allows you to set upload, download bandwidth in regards to your network connection. This is mainly important in regards to LTE imbedded and Mobile hotspots as you will want to control the amount of data spent. 
 
 **6.**Perform a "rollback" of a driver update.  Note, you will need to access a different USB device if you have been working with a printer.
 
@@ -180,7 +180,7 @@ Image
 * The simplest answer would be to attempt to update the driver, if that doesn't work a simple uninstall/reinstall should do the trick.
 
 
-###**September 24th Warm up**
+### **September 24th Warm up**
 
 Microsoft just made the announcement that windows 10, through Azure, will be able to fully run on the cloud. This means that a fully supported Microsoft virtual machine will become available along with their other cloud services and outlook 365. 
 My feeling is that this is Microsoft leaning into Azure, a provider of many of their cloud based application, to further utilize windows 10 running on any and all available hardware. This would also include mobile and surface base operations for a company. 
@@ -188,7 +188,7 @@ This also means that you hardware wouldn't need to match the applications that y
 
 
 
-####**Skill 1.4 Tech blog**
+#### **Skill 1.4 Tech blog**
 
 First and foremost, windows 10 (depending on you device)takes advantage of the start menu and tiles.
 In order to customize the features:
@@ -228,7 +228,7 @@ In order to customize the features:
 30. Now you can select which items send you notifications as well as which action tiles are available in your quick select.
 
 
-##**Warm up**
+## **Warm up**
 
 What is a UAC?
 
@@ -255,7 +255,7 @@ Organizational units or OU can be a group of users or devices within the rest
 
 [LOSD Breakdown] (http://www.omnisecu.com/windows-2003/group-policy/group-policy-processing-order.php)
 
-####**Skill 1.5 challenge**
+#### **Skill 1.5 challenge**
 
 1.Block Microsoft accounts?
 
@@ -285,13 +285,13 @@ Group policy editor changes the registry that windows loads
 what does it change? 
 gpupdate/force to change effective date of GPO change or control a remote machine.
 
-###**October 8th Warm up**
+### **October 8th Warm up**
 
 Windows 1809 bug?
 
  * Microsoft 1809 update is being delayed because of a software bug that seems to be deleting user information. quite shocking that this was not caught in testing.
 
-####**Skill 2.1 Blog prompt**
+#### **Skill 2.1 Blog prompt**
 
 Create a "Top 5" list of Windows 10 networking best practices, tips, tricks and troubleshooting strategies.
 
@@ -305,9 +305,9 @@ Create a "Top 5" list of Windows 10 networking best practices, tips, tricks and 
 
 1. Though you may never use them, you should be aware of VPN connections. A virtual private network can be used to further secure any internet usage and protect you against outside threats. There are free and paid versions on VPNS that focus on multiple levels of 
 
-####**Skill 2.2 Tech blog**
+#### **Skill 2.2 Tech blog**
 
-###Scenario 1: Creating a Large Volume
+### Scenario 1: Creating a Large Volume
 
 You have a new desktop running Windows 10. However, you try to copy your file repository and find out that you do not have enough disk space. You have 400 GB of free disk space on your C drive and you have 3 smaller 500 GB drives. What can you do?
 
@@ -316,7 +316,7 @@ You have a new desktop running Windows 10. However, you try to copy your file re
 - Security of Mirroring your drives to back up data
 - Striping drives in order to maximize performance
 
-###Scenario 2: Configuring a Storage Space/Storage Pool
+### Scenario 2: Configuring a Storage Space/Storage Pool
 You create a new storage pool for the following disks on your Windows 10 computer:
 
   
@@ -330,9 +330,9 @@ SATA and SAS are two different types of drives with different connectors/interfa
 - Using Storage Spaces will allow you to tell your computer to read the new drive pool as either a HDD or SSD and in doing so allocate the maximum amount to your storage space. So with both of your drives you can allocate 2TB of storage space.
 
 
-####**Skill 2.3 Techblog**
+#### **Skill 2.3 Techblog**
 
-##Lab 9: Installing a Virtual printer
+## Lab 9: Installing a Virtual printer
 1. How many printers are installed on this machine?
  * Currently, there are 3 printers installed
 1. How many Printing devices are now displayed in the devices and printers window?
@@ -346,7 +346,7 @@ SATA and SAS are two different types of drives with different connectors/interfa
 1. Which device has become the default printer now that the Virtual Printer has been removed?
  * Microsoft print to pdf is now the default
 
-##Lab 10: Sharing a virtual printer
+## Lab 10: Sharing a virtual printer
 1. How many printer devices are installed on this machine?
  * Currently there are 3 printers installed
 1. How many printing devices are now displayed in the Devices and Printers window?
@@ -362,7 +362,7 @@ SATA and SAS are two different types of drives with different connectors/interfa
 1. Did the file appear on the desktop?
  * No
 
-##Lab 12: Configure Local User File Sharing
+## Lab 12: Configure Local User File Sharing
 1. Which account type was created for the TEST user account?
  * Local user account
 1. Why would someone want to change a user account from the default account type to an Administrator account? What benefits does the Administrator account provide?
@@ -378,16 +378,14 @@ SATA and SAS are two different types of drives with different connectors/interfa
 1. Why is the TEST user unable to alter this file?
  * because its only a local user not an admin
 
-###**October 29th Warm up**
+### **October 29th Warm up**
 
-Upon opening, I was supprised to discover many Github based applications to assist with coding, storing or managing multiple repositories.
-I am also suprised by the sheer amount of developer applications provided, especial those that deal with operating systems outside of Windows.
-I am however unsuprised by the free apps section of the store containing plenty of popular mobile applictions such as spotify, whatsapp and Tiktok as well as the ever popular Itunes.
+Upon opening, I was surprised to discover many Github based applications to assist with coding, storing or managing multiple repositories.
+I am also surprised by the sheer amount of developer applications provided, especial those that deal with operating systems outside of Windows.
+I am however unsurprised by the free apps section of the store containing plenty of popular mobile applications such as Spotify, whatsapp and Tiktok as well as the ever popular Itunes.
 
-####**Skill 2.4 Techblog**
+#### **Skill 2.4 Techblog**
 You work for a small business of 25 employees, split between two offices that are in different buildings but share a parking lot.
 You have been tasked with deploying Microsoft Office to all machines, Adobe CS Suite to the Marketing team, and QuickBooks to the Accounting Team.  You also want to allow users to selectively install Adobe Acrobat. What would you do?
 
- * The best way I can think to accomplisy this is by using a group policy object. With GPO's you can filter which users would be needing which pieces of software.
-this also gices you the option of setting the deployment to Assign, which automatically installs when the user logs in. Publish, which will allow the user on command to acess the install from the control panel.
-
+ * The best way I can think to accomplish this is by using a group policy object. With GPO's you can filter which users would be needing which pieces of software. This also gives you the option of setting the deployment to Assign, which automatically installs when the user logs in. Publish, which will allow the user on command to access the install from the control panel.
