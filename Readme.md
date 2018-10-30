@@ -1,6 +1,9 @@
-﻿﻿﻿﻿**CIS 141 TechBlog**
+###**CIS 141 TechBlog**
+
 ##**Tyler Zweigle**
+
 ###**Quick Bio**
+
 I am 31 years old and have lived in Grass valley all my life.
 My Interest include
 
