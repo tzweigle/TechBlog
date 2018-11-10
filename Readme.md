@@ -388,3 +388,29 @@ You work for a small business of 25 employees, split between two offices that ar
 You have been tasked with deploying Microsoft Office to all machines, Adobe CS Suite to the Marketing team, and QuickBooks to the Accounting Team.  You also want to allow users to selectively install Adobe Acrobat. What would you do?
 
  * The best way I can think to accomplish this is by using a group policy object. With GPO's you can filter which users would be needing which pieces of software. This also gives you the option of setting the deployment to Assign, which automatically installs when the user logs in. Publish, which will allow the user on command to access the install from the control panel.
+ 
+ ## **Skill 2.5 Techblog**
+ 
+ #### Lab 7
+ 1. Given the error message of the three reasons givin above, whic one is the most likley to be the cause of the failure
+  * The remote access to the server is not enabled.
+
+ 2. After the remote desktop successfully connects, what is displayed on top of the screen that identifies PC1 is being used?
+  * It displays the IP adress for PC1
+  
+ 3. While remotley connected to PC1, click on the start menu and select the power icon. what options are listed there at this time?
+  * Disconnect
+ 4. Why is it necesary to login to the PC1 machine again?
+  * becuase it was previously being controlled by PC2
+ 5. is the file created on PC2 on the desktop?
+  * Yes
+ 6. What are some benefites of using the remote desktop connection?
+  * It will allow IT staff to troublshoot problems remotley as well as be used as a tool to adress specific functions related to IT
+ 
+ **Addtional Questions**
+1. Joe is a new IT Director who is tasked with making sure his Windows 10 computer users can be assisted remotely. On his first day at the company, Joe was told that the Remote Assistance feature was not working for users after a new firewall was installed. What could be causing the problem and how should it be addressed?
+ * Becuase the firewall was just implemented, the remote access function may need to be reset. manually updating the systems of each node or sending a GPO will enable you to fix the issue
+ 
+2. You are an administrator at the Contoso Corporation. You have a 12-person help desk that supports about 10,000 users spread out over a 5-building campus. You don’t have enough people to provide support staff visits to a user who is having problems. Describe the actions you can take to support your company users.
+ * request that the user enables remote access by sending a requestes and the using remote viewing both you and the user can see what is active on the computer at that time.
+  
