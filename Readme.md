@@ -414,3 +414,23 @@ You have been tasked with deploying Microsoft Office to all machines, Adobe CS S
 2. You are an administrator at the Contoso Corporation. You have a 12-person help desk that supports about 10,000 users spread out over a 5-building campus. You don’t have enough people to provide support staff visits to a user who is having problems. Describe the actions you can take to support your company users.
  * request that the user enables remote access by sending a requestes and the using remote viewing both you and the user can see what is active on the computer at that time.
   
+## **Skill 3.1 Techblog**
+
+#### Lab13
+1. Why is it beneficial to leave the Allow scheduled maintenance to wake up my computer at the schedule time option check-marked?
+ * Becuase when the computer is woken up at allows the maintenance program to go online and install any needed updates.
+2. After start maintenance has completed, what message is shown next to Automatic Maintenance?
+ * No action needed
+3. What would occur if the Value data field used a value of 0?
+ * It would run Maintenance as per usual.
+
+**Additional Questions**
+
+1. You are an IT manager and would like to use a virtual machine to keep up to date on the latest development in Windows 10 and access the preview builds.  How would you go about doing this?
+ * Asuming that I am using at least a professional ver of Windows, I would create a VHD or VHDX to use withing Hyper V.
+
+2. As an IT manager, one of the departments you support is Physical Plant Operations.  They use a specialized application to run power generators that does not need access to the Internet or require any operating software updates.  Which branch of Windows 10 will you recommend for use by the Physical Plant Operations department?  Why?
+ * A special build of Enterprise known as Long Term Servicing Branch. It will allow you to block feature updates and can only be upgraded by installing a more recent version of LTSB.
+ 
+3. As an IT manager, you have developed a custom image of Windows 10 that is deployed to all general users.  You do not want the users to be able to install additional software, including applications found in the Windows Store.  How could you prevent users from installing apps from the Windows Store?
+ * In order to prevent users from downloading applications from the microsoft store, use Group policy editor to turn off the store application. User configuration\policies\administrative templates\windows components\store and turn off the store application value.
