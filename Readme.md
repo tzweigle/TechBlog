@@ -416,7 +416,7 @@ You have been tasked with deploying Microsoft Office to all machines, Adobe CS S
   
 ## **Skill 3.1 Techblog**
 
-#### Lab13
+#### Lab 13
 1. Why is it beneficial to leave the Allow scheduled maintenance to wake up my computer at the schedule time option check-marked?
  * Becuase when the computer is woken up at allows the maintenance program to go online and install any needed updates.
 2. After start maintenance has completed, what message is shown next to Automatic Maintenance?
@@ -434,3 +434,42 @@ You have been tasked with deploying Microsoft Office to all machines, Adobe CS S
  
 3. As an IT manager, you have developed a custom image of Windows 10 that is deployed to all general users.  You do not want the users to be able to install additional software, including applications found in the Windows Store.  How could you prevent users from installing apps from the Windows Store?
  * In order to prevent users from downloading applications from the microsoft store, use Group policy editor to turn off the store application. User configuration\policies\administrative templates\windows components\store and turn off the store application value.
+ 
+ ## **Akill 3.2/ 3.3 Techblog**
+ 
+ #### Lab 14
+ 1. In the Task manager services window, What are the diffeent values that exist?
+  * Running and stopped.
+ 2. After sorting the Services, what servies have a PID assigned to them?
+  * Everything from Wsearch to Appxscv has a PID and all seem to be running.
+ 3. How many Threads and processes are running?
+  * 768 Threads and 43 Processes.
+ 4. How much Physical Memory is in use, How much total memory, what percent of the memor is utilized?
+  * 826 MB in use, 20GB total memory installed and about 0.8 memory utilized.
+ 5. In Disk O, what is the total capacity of the hard drive, current active time utilization?
+  * 50GB is total capacity and active time utilization is at 0%.
+ 6. What are the IPV4 and IPV6 adresses on pc1?
+  * IPV 4 is 192.168.1.203 and the IPV 6 is fe80::a881:bd1c:2759:8aas%6.
+ 7. which Application has used the cpu most often?
+  * Cortana.
+ 8. Based on memory utlization, what app is using the most memory?
+  * Once again cortana.
+ 9. what is the percentage of PC1 memory that is in use?
+  * 40%.
+ 10. After launchng an Edge browser, what is the memory percentage?
+  * 43%.
+ 11. How much memory are both edge browser and cortana using?
+  * edge is using 10.8 MB and cortanat is using 29.5 MB.
+  
+ #### Lab 08
+ 1. After having reset from a restore point, What color is your background? why is this?
+  * The backgrounnd was set back to the default black color. this is because the restore point had been set to beore I had made any changes to the appearance. 
+  
+**Additional Questions**
+1. You are an IT manager and several computers belonging to support staff were recently upgraded from Windows 7 Pro to Windows 10 Enterprise.  You have received several complaints that "their computers are slow", "apps stop responding" and "websites are slow to load".  Describe the monitoring tools you would use to help diagnose the issues.
+ * Any upgrading of computer services of any kind will lead to these snags. It would be best to use the Taks manager as well as create an event viewer log to create a complete audit of the situation. With this information I can determine the possible cause of the slowdown and locate any needed driver or system updates that are required.
+ 
+2. Your Sierra College instructor just gave you a free laptop (not going to happen).  You want to make sure that the contents of that machine are periodically backed up and that you have access to previous versions of files.  Describe the data recovery strategies you would implement on your new machine.
+ * In order to protect any data as well as keep any previous versions of my files, I would create a restore point any time I made changes to my pc.
+ 
+
