@@ -435,7 +435,7 @@ You have been tasked with deploying Microsoft Office to all machines, Adobe CS S
 3. As an IT manager, you have developed a custom image of Windows 10 that is deployed to all general users.  You do not want the users to be able to install additional software, including applications found in the Windows Store.  How could you prevent users from installing apps from the Windows Store?
  * In order to prevent users from downloading applications from the microsoft store, use Group policy editor to turn off the store application. User configuration\policies\administrative templates\windows components\store and turn off the store application value.
  
- ## **Akill 3.2/ 3.3 Techblog**
+ ## **Skill 3.2/ 3.3 Techblog**
  
  #### Lab 14
  1. In the Task manager services window, What are the diffeent values that exist?
