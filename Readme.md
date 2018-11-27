@@ -33,7 +33,7 @@ B. Determine Appropriate edition
 
 C. Deployment options
 
-**1.Wipe &load/Clean**
+**1. Wipe &load/Clean**
 
 * Capture data settings
 * Deploy custom os
@@ -42,13 +42,13 @@ C. Deployment options
 * usmt:capture tool for data
 * DISM; disk image management tool
 
-**2.In place upgrade**
+**2. In place upgrade**
 
 * Preserve data
 * Install standard os
 * Restore everything
 
-**3.provisioning**
+**3. Provisioning**
 
 * Transform into an enterprise device
 * Remove unneeded components
@@ -83,9 +83,6 @@ her is the link to one of the articles I've located.
 
 [Google's Mastercard deal] (https://thehackernews.com/2018/09/google-mastercard-advertising.html)
 
-### In class notes 9/10
-Using VMware player 14 to install virtual machine. 
-VM windows install key 8PHVNVYCHHQKM76CQM93C37Y9
 
 ## **Tech blog 1.2 prompt**
 
@@ -102,7 +99,7 @@ VM windows install key 8PHVNVYCHHQKM76CQM93C37Y9
 * I was required to supply a key and choose language options
 * I also was told to log in or create user information for the computer
 
-3 .What is one Windows Feature that you chose to add after installation?  How did you add that feature?
+3. What is one Windows Feature that you chose to add after installation?  How did you add that feature?
 
 * Hyper V (which seems to assist in server management) is a feature i added after the fact using optionalfeatures.exe
 
@@ -125,7 +122,7 @@ Answer the following questions and, when applicable, be sure to include screensh
 
 4.  In what ways was the upgrade process similar to  the clean install process?  How did it differ?
 
-* the clean install seemed to be faster that the upgrade. in addition I was prompted with similar customization options prior to launch. during the launch, a Microsoft edge page was on display inviting me to further customize and explorer new features 
+* The clean install seemed to be faster that the upgrade. in addition I was prompted with similar customization options prior to launch. during the launch, a Microsoft edge page was on display inviting me to further customize and explorer new features 
 
 5. Are there any additional folders that remain after the upgrade process is complete?  What are the contents of those folders?
 
@@ -166,8 +163,6 @@ If necessary update the device.
 
 5. Why would I disable updates over metered connections?  Capture a screenshot of the screen on which you disabled this feature.
 
-Image
-![Screenshot](F:\CIS 141Metered Connection) 
 
 * Disabling Metered connection allows you to set upload, download bandwidth in regards to your network connection. This is mainly important in regards to LTE imbedded and Mobile hotspots as you will want to control the amount of data spent. 
 
@@ -193,8 +188,8 @@ This also means that you hardware wouldn't need to match the applications that y
 First and foremost, windows 10 (depending on you device)takes advantage of the start menu and tiles.
 In order to customize the features:
 
-1. -Right click the start button
-2. -Click settings
+1. Right click the start button
+2. Click settings
 3. Click personalization
 4. Select the start tab
 5. From here you are given the option to Show more or less tiles, present as an app list show recent apps, show most used apps, use start full screen, choose which folders appear on start.
@@ -202,47 +197,44 @@ In order to customize the features:
 6. By right clicking any of the then shown tiles gives you further personalization options such as selecting size grouping tiles and even turning some tiles live.
 
 7. Following the same steps, you can access other customization options such as
+ - Background
+ - Colors
+ - Lock screen
+ - Themes
+ - Start
+ - Taskbar
+8. Next you will find the option to configure for convertible devices, incase your device can act as a tablet
+9. Right click start
+10. Click settings
+11. Click system
+12. Select tablet mode
+13. Here you can select how you wish to have the interface launch. your choices are use tablet mode, use desktop mode or use appropriate mode for the hardware.
+14. You can also elect to have a notification when theses changes happen. 
+15. To set up the use of multiple desktops,
+16. Click the task view button
+17. New desktop
+18. This will allow multiple fully customizes desktops for personal use or multiple usurers.
+19. Lastly, it is important that you are familiar with your action center taskbar. To customize the action center,
+20. Right start button
+21. Select settings
+22. Select system
+23. Click notifications and actions.
+24. Now you can select which items send you notifications as well as which action tiles are available in your quick select.
 
-8. Background
-9. Colors
-10. Lock screen
-11. Themes
-12. Start
-13. Taskbar
-14. Next you will find the option to configure for convertible devices, incase your device can act as a tablet
-15. Right click start
-16. Click settings
-17. Click system
-18. Select tablet mode
-19. Here you can select how you wish to have the interface launch. your choices are use tablet mode, use desktop mode or use appropriate mode for the hardware.
-20. You can also elect to have a notification when theses changes happen. 
-21. To set up the use of multiple desktops,
-22. Click the task view button
-23. New desktop
-24. This will allow multiple fully customizes desktops for personal use or multiple usurers.
-25. Lastly, it is important that you are familiar with your action center taskbar. To customize the action center,
-26. Right start button
-27. Select settings
-28. Select system
-29. Click notifications and actions.
-30. Now you can select which items send you notifications as well as which action tiles are available in your quick select.
 
+### **Warm up**
 
-#### **Warm up**
+#### What is a UAC?
 
-What is a UAC?
+ * UAC stands for User Account control, this is the standard that Microsoft has introduced to differentiate what a user on a computer can do. When a user that has been given lower level permission on a specific machine attempt to do something that might cause data loss or harm a UAC alert pops up letting the user know they aren't an administrator.
 
-UAC stands for User Account control, this is the standard that Microsoft has introduced to differentiate what a user on a computer can do. 
-When a user that has been given lower level permission on a specific machine attempt to do something that might cause data loss or harm 
-A UAC alert pops up letting the user know they aren't an administrator.
+#### When did Microsoft introduce UAC?
 
-When did Microsoft introduce UAC?
+ * It was rolled out with windows vista.
 
-it was rolled out with windows vista.
+#### Is the experience the same in the host computer as in a Virtual machine?
 
-Is the experience the same in the host computer as in a Virtual machine?
-
-With my host computer and my VM, I am registered as an admin, which mean i am still alerted to changes being made but I am not prevented from doing so.
+ * With my host computer and my VM, I am registered as an admin, which mean i am still alerted to changes being made but I am not prevented from doing so.
 
 **-1.5 key concepts (class Notes)-**
 
@@ -257,15 +249,15 @@ Organizational units or OU can be a group of users or devices within the rest
 
 ## **Skill 1.5 challenge**
 
-1.Block Microsoft accounts?
+1. Block Microsoft accounts?
 
  * in my Local policies and the security option I am given the ability to either make it so a MS account cannot be added or worse yet that one cannot be logged into. making the machines OS all but worthless.
 
-2.Change the password limit to 10?
+2. Change the password limit to 10?
 
 * I can alter the password length (in my VM) using security settings, to account polices and then to password policy. Max it will allow is 20 characters and putting 000 will not require a password.
 
-3.Disable secure desktop in UAC?
+3. Disable secure desktop in UAC?
 
  * A Secure Desktop is a desktop that is out of scope of other applications accessibility that will display when a UAC alert is prompted. you can turn this setting off in Local policies, security options and scroll down to User account control: switch to the secure desktop when prompting for elevation. This will prevent the darkened background and locking of accessibility when UAC would prompt. 
 
@@ -274,16 +266,16 @@ Group policy editor changes the registry that windows loads
 
  - Lets play around with local group policy editor centralized control for
 
-1.user settings
+1. User settings
 
-2.computer settings
+2. Computer settings
 
-3.control and deployment of applications
+3. Control and deployment of applications
 
-4.control user experience
+4. Control user experience
 
-what does it change? 
-gpupdate/force to change effective date of GPO change or control a remote machine.
+gpupdate/force, what does it change? 
+Changes effective date of GPO change or control a remote machine.
 
 #### **October 8th Warm up**
 
