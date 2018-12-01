@@ -84,7 +84,7 @@ her is the link to one of the articles I've located.
 [Google's Mastercard deal] (https://thehackernews.com/2018/09/google-mastercard-advertising.html)
 
 
-## **Tech blog 1.2 prompt**
+## **Skill 1.2 Tech Blog**
 
 1. Why would a user be interested in multiple partitions on a hard drive?  
 
@@ -103,7 +103,7 @@ her is the link to one of the articles I've located.
 
 * Hyper V (which seems to assist in server management) is a feature i added after the fact using optionalfeatures.exe
 
-## **Tech Blog 1.2 blog part 2**
+## **Skill 1.2 Tech Blog part 2**
 
 Answer the following questions and, when applicable, be sure to include screenshots and links to the Internet:
 
@@ -139,7 +139,7 @@ This included the Zero day flaw which allowed people to alter user privileges.
 [Most recent update] (https://krebsonsecurity.com/2018/09/patch-tuesday-september-2018-edition/)
 
 
-## **Skill 1.3 Technical Blog Prompt**
+## **Skill 1.3 Tech Blog**
 1. Create a list of hardware that a user might have that require a driver installation.
 
 * A practical list of devices that might require a drives would be the
@@ -162,9 +162,11 @@ If necessary update the device.
 * When I disable my current device it gives me a device not recognized error and offers me a fix solution. When I disable my network card, like the name suggests I lose any network connection and cannot access the internet.
 
 5. Why would I disable updates over metered connections?  Capture a screenshot of the screen on which you disabled this feature.
-
-
+      
 * Disabling Metered connection allows you to set upload, download bandwidth in regards to your network connection. This is mainly important in regards to LTE imbedded and Mobile hotspots as you will want to control the amount of data spent. 
+
+        TechBlog/Metered connection.PNG
+      
 
 6. Perform a "rollback" of a driver update.  Note, you will need to access a different USB device if you have been working with a printer.
 
@@ -183,7 +185,7 @@ This also means that you hardware wouldn't need to match the applications that y
 
 
 
-## **Skill 1.4 Tech blog**
+## **Skill 1.4 Tech Blog**
 
 First and foremost, windows 10 (depending on you device)takes advantage of the start menu and tiles.
 In order to customize the features:
@@ -283,7 +285,7 @@ Windows 1809 bug?
 
  * Microsoft 1809 update is being delayed because of a software bug that seems to be deleting user information. quite shocking that this was not caught in testing.
 
-## **Skill 2.1 Blog prompt**
+## **Skill 2.1 Tech Blog**
 
 Create a "Top 5" list of Windows 10 networking best practices, tips, tricks and troubleshooting strategies.
 
@@ -297,7 +299,7 @@ Create a "Top 5" list of Windows 10 networking best practices, tips, tricks and 
 
 1. Though you may never use them, you should be aware of VPN connections. A virtual private network can be used to further secure any internet usage and protect you against outside threats. There are free and paid versions on VPNS that focus on multiple levels of 
 
-## **Skill 2.2 Tech blog**
+## **Skill 2.2 Tech Blog**
 
 ### Scenario 1: Creating a Large Volume
 
@@ -321,7 +323,7 @@ what is the maximum size you can allocate for your new storage space?
 - Using Storage Spaces will allow you to tell your computer to read the new drive pool as either a HDD or SSD and in doing so allocate the maximum amount to your storage space. So with both of your drives you can allocate 2TB of storage space.
 
 
-## **Skill 2.3 Techblog**
+## **Skill 2.3 Tech Blog**
 
 ### Lab 9: Installing a Virtual printer
 1. How many printers are installed on this machine?
@@ -375,13 +377,13 @@ Upon opening, I was surprised to discover many Github based applications to assi
 I am also surprised by the sheer amount of developer applications provided, especial those that deal with operating systems outside of Windows.
 I am however unsurprised by the free apps section of the store containing plenty of popular mobile applications such as Spotify, whatsapp and Tiktok as well as the ever popular Itunes.
 
-## **Skill 2.4 Techblog**
+## **Skill 2.4 Tech Blog**
 You work for a small business of 25 employees, split between two offices that are in different buildings but share a parking lot.
 You have been tasked with deploying Microsoft Office to all machines, Adobe CS Suite to the Marketing team, and QuickBooks to the Accounting Team.  You also want to allow users to selectively install Adobe Acrobat. What would you do?
 
  * The best way I can think to accomplish this is by using a group policy object. With GPO's you can filter which users would be needing which pieces of software. This also gives you the option of setting the deployment to Assign, which automatically installs when the user logs in. Publish, which will allow the user on command to access the install from the control panel.
  
- ## **Skill 2.5 Techblog**
+ ## **Skill 2.5 Tech Blog**
  
  #### Lab 7
  1. Given the error message of the three reasons givin above, whic one is the most likley to be the cause of the failure
@@ -406,7 +408,7 @@ You have been tasked with deploying Microsoft Office to all machines, Adobe CS S
 2. You are an administrator at the Contoso Corporation. You have a 12-person help desk that supports about 10,000 users spread out over a 5-building campus. You don’t have enough people to provide support staff visits to a user who is having problems. Describe the actions you can take to support your company users.
  * request that the user enables remote access by sending a requestes and the using remote viewing both you and the user can see what is active on the computer at that time.
   
-## **Skill 3.1 Techblog**
+## **Skill 3.1 Tech Blog**
 
 #### Lab 13
 1. Why is it beneficial to leave the Allow scheduled maintenance to wake up my computer at the schedule time option check-marked?
@@ -427,7 +429,7 @@ You have been tasked with deploying Microsoft Office to all machines, Adobe CS S
 3. As an IT manager, you have developed a custom image of Windows 10 that is deployed to all general users.  You do not want the users to be able to install additional software, including applications found in the Windows Store.  How could you prevent users from installing apps from the Windows Store?
  * In order to prevent users from downloading applications from the microsoft store, use Group policy editor to turn off the store application. User configuration\policies\administrative templates\windows components\store and turn off the store application value.
  
- ## **Skill 3.2/ 3.3 Techblog**
+ ## **Skill 3.2/ 3.3 Tech Blog**
  
  #### Lab 14
  1. In the Task manager services window, What are the diffeent values that exist?
