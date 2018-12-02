@@ -161,11 +161,9 @@ If necessary update the device.
 
 * When I disable my current device it gives me a device not recognized error and offers me a fix solution. When I disable my network card, like the name suggests I lose any network connection and cannot access the internet.
 
-5. Why would I disable updates over metered connections?  Capture a screenshot of the screen on which you disabled this feature.
+5. Why would I disable updates over metered connections?
       
 * Disabling Metered connection allows you to set upload, download bandwidth in regards to your network connection. This is mainly important in regards to LTE imbedded and Mobile hotspots as you will want to control the amount of data spent. 
-
-      ![](Screenshot)
       
 
 6. Perform a "rollback" of a driver update.  Note, you will need to access a different USB device if you have been working with a printer.
