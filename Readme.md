@@ -165,7 +165,7 @@ If necessary update the device.
       
 * Disabling Metered connection allows you to set upload, download bandwidth in regards to your network connection. This is mainly important in regards to LTE imbedded and Mobile hotspots as you will want to control the amount of data spent. 
 
-      ![](Metered connection.png)
+      ![Metered connection](Metered connection.png)
       
 
 6. Perform a "rollback" of a driver update.  Note, you will need to access a different USB device if you have been working with a printer.
