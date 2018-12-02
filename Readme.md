@@ -388,7 +388,7 @@ You have been tasked with deploying Microsoft Office to all machines, Adobe CS S
   * The remote access to the server is not enabled.
 
  2. After the remote desktop successfully connects, what is displayed on top of the screen that identifies PC1 is being used?
-  * It displays the IP adress for PC1
+  * It displays the IP adress for PC1.
   
  3. While remotley connected to PC1, click on the start menu and select the power icon. what options are listed there at this time?
   * Disconnect
